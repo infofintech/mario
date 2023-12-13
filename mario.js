@@ -157,7 +157,7 @@ function resetSounds() {
   window.muted = (localStorage && localStorage.muted == "true");
   
   window.AudioPlayer = new AudioPlayr({
-    directory: "Sounds",
+    directory: "",
     getVolumeLocal: function() { return .49; },
     getThemeDefault: function() { return area.theme; }, 
     library: {
